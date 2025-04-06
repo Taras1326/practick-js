@@ -45,13 +45,16 @@
 
 
 
-const age = 18;
-console.log(typeof(age));
-const message = Number(prompt("скільки вам років"));
-console.log(typeof(message));
-const rest = message === age;
+// const age = 18;
+// console.log(typeof(age));
+// const message = Number(prompt("скільки вам років"));
+// console.log(typeof(message));
+// const rest = message === age;
 
-console.log(rest);
+// console.log(rest);
+
+
+
 
 
 
