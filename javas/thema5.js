@@ -68,29 +68,31 @@
 //     //Змінна lang може приймати 4 значення: 'ua', 'en', 'ru', 'fr'. За допомогою конструкції switch виведи на екран назву місяця в залежності від обраної мови. Наприклад, якщо lang = 'fr', то в консоль виводимо "Janvier".
 
 
-let leng = "такоі мови не існує";
+// let leng = "такоі мови не існує";
 
-const languageSelection = prompt("Введіть одне з чотирьох значень: 'ua', 'en', 'ru', 'fr'").trim().toLocaleLowerCase();
+// const languageSelection = prompt("Введіть одне з чотирьох значень: 'ua', 'en', 'ru', 'fr'").trim().toLocaleLowerCase();
 
-switch (languageSelection) {
-    case "ua":
-        leng = "украінська"
-        break;
-    case "en":
-        leng = "англійська"
-        break;
-    case  "ru":
-        leng = "російська"
-        break;
-    case  "fr":
-        leng = "французька"
-        break;
-    // default: 
-    //     leng = "такоі мови не існує";
-}
+// switch (languageSelection) {
+//     case "ua":
+//         leng = "украінська"
+//         break;
+//     case "en":
+//         leng = "англійська"
+//         break;
+//     case  "ru":
+//         leng = "російська"
+//         break;
+//     case  "fr":
+//         leng = "французька"
+//         break;
+//     // default: 
+//     //     leng = "такоі мови не існує";
+// }
 
 
-console.log(leng);
+// console.log(leng);
+
+
 
 
 
