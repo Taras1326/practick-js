@@ -27,19 +27,19 @@ console.log(count);
 // Після всіх перевірок вивести в alert значення змінної message.
 
 const ADMIN_PASSWORD = "12345"; // Тут можна задати справжній пароль
-let message;
+let messages;
 
 const userInput = prompt("Введіть пароль адміністратора:");
 
 
  if (userInput === null) {
-    message = "Скасовано користувачем!";
+    messages = "Скасовано користувачем!";
  } else if (userInput === ADMIN_PASSWORD) {
-    message = "Ласкаво просимо!";
+    messages = "Ласкаво просимо!";
  } else {
-    message = "Доступ заборонений, невірний пароль!";
+    messages = "Доступ заборонений, невірний пароль!";
  }
-alert(message);
+alert(messages);
 
 
 
